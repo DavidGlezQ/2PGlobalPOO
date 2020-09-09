@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">2PGlobalPOO</string>
+    <string name="nombre">David Alejandro Gonzalez Quezada</string>
+    <string name="registro">20110407</string>
+    <string name="materia">Ingeniería en Desarrollo de Software</string>
+    <string name="globalPoo">Examen Global POO</string>
+    <string name="fecha">09/09/2020</string>
+</resources>
