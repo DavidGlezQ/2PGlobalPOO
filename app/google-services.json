@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "58109345869",
+    "firebase_url": "https://globalpoo.firebaseio.com",
+    "project_id": "globalpoo",
+    "storage_bucket": "globalpoo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58109345869:android:5bc9d3ef33555b789a5c04",
+        "android_client_info": {
+          "package_name": "com.example.a2pglobalpoo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58109345869-qikn2nnfveha396elhfh8pvvs5f10rtv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8HGvIIiTP9f8BRotlPfQWOcbKjPrMvP4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "58109345869-qikn2nnfveha396elhfh8pvvs5f10rtv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
