@@ -11,36 +11,36 @@
         android:id="@+id/imageProfileLeft"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
     <TextView
         android:id="@+id/textViewMessageLeft"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:background="@drawable/bubble_chat_left"
         android:maxWidth="300dp"
-        android:paddingStart="8dp"
-        android:paddingTop="8dp"
-        android:paddingEnd="18dp"
         android:paddingBottom="8dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageProfileLeft"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:paddingStart="18dp"
+        android:paddingEnd="8dp"
+        android:paddingTop="8dp"
+        android:background="@drawable/bubble_chat_left"
+        app:layout_constraintStart_toEndOf="@id/imageProfileLeft"
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <TextView
-        android:id="@+id/textViewTimeRight"
+        android:id="@+id/textViewTimeLeft"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="2dp"
-        android:layout_marginEnd="4dp"
+        android:layout_marginStart="4dp"
         android:textSize="13sp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="@id/textViewMessageLeft"
-        app:layout_constraintEnd_toStartOf="@id/textViewMessageLeft"/>
+        app:layout_constraintStart_toEndOf="@id/textViewMessageLeft"/>
 
 
 
